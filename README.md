@@ -4,15 +4,13 @@ This is responsive website made with Ant design UI framework and React.
 
 # Get Started
 
-## Install the dependencies
+### `npm install`
 
-Simply run `npm install` inside the project folder.
+Installs the dependencies.
 
-## Run the project
+### `npm start`
 
-Run `npm start`.
-
-It Runs the app in the development mode.\
+Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
