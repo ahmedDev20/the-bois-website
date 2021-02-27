@@ -3,43 +3,49 @@ import { Col, Row } from 'antd';
 import { Card } from 'antd';
 
 import img1 from '../../assets/images/boubidi.JPG';
-import img2 from '../../assets/images/mouad.JPG';
+import img2 from '../../assets/images/nassim.jpg';
 import img3 from '../../assets/images/mazegh.JPG';
-import img4 from '../../assets/images/stofe.JPG';
-import img5 from '../../assets/images/nassim.jpg';
-import img6 from '../../assets/images/taha.JPG';
+import img4 from '../../assets/images/balady.JPG';
+import img5 from '../../assets/images/stofe.JPG';
+import img6 from '../../assets/images/mouad.JPG';
+import img7 from '../../assets/images/taha.JPG';
 
 const { Meta } = Card;
 
 const items = [
   {
     key: '1',
-    image: { src: img1, alt: 'modern-design' },
+    image: { src: img1, alt: 'boubidi' },
     title: 'Boubidi',
   },
   {
     key: '2',
-    image: { src: img2, alt: 'clean-design' },
-    title: 'Mouad',
+    image: { src: img2, alt: 'nassim' },
+    title: 'Nassim',
   },
   {
     key: '3',
-    image: { src: img3, alt: 'great-support' },
+    image: { src: img3, alt: 'mazegh' },
     title: 'Mazegh',
   },
   {
     key: '4',
-    image: { src: img4, alt: 'easy-customise' },
-    title: 'Stofe',
+    image: { src: img4, alt: 'balady' },
+    title: 'Balady',
   },
   {
     key: '5',
-    image: { src: img5, alt: 'unlimited-features' },
-    title: 'Nassim',
+    image: { src: img5, alt: 'stofe' },
+    title: 'Stofe',
   },
   {
     key: '6',
-    image: { src: img6, alt: 'advanced-option' },
+    image: { src: img6, alt: 'mouad' },
+    title: 'Mouad',
+  },
+  {
+    key: '7',
+    image: { src: img7, alt: 'taha' },
     title: 'Taha',
   },
 ];
