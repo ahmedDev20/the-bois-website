@@ -2,12 +2,12 @@ import React from 'react';
 import { Col, Row } from 'antd';
 import { Card } from 'antd';
 
-import img1 from '../../assets/images/modern-design.jpg';
-import img2 from '../../assets/images/clean-design.jpg';
-import img3 from '../../assets/images/great-support.jpg';
-import img4 from '../../assets/images/easy-customise.jpg';
-import img5 from '../../assets/images/unlimited-features.jpg';
-import img6 from '../../assets/images/advanced-option.jpg';
+import img1 from '../../assets/images/boubidi.JPG';
+import img2 from '../../assets/images/mouad.JPG';
+import img3 from '../../assets/images/mazegh.JPG';
+import img4 from '../../assets/images/stofe.JPG';
+import img5 from '../../assets/images/nassim.jpg';
+import img6 from '../../assets/images/taha.JPG';
 
 const { Meta } = Card;
 
@@ -15,32 +15,32 @@ const items = [
   {
     key: '1',
     image: { src: img1, alt: 'modern-design' },
-    title: 'Modern Design',
+    title: 'Boubidi',
   },
   {
     key: '2',
     image: { src: img2, alt: 'clean-design' },
-    title: 'Clean and Elegant',
+    title: 'Mouad',
   },
   {
     key: '3',
     image: { src: img3, alt: 'great-support' },
-    title: 'Great Support',
+    title: 'Mazegh',
   },
   {
     key: '4',
     image: { src: img4, alt: 'easy-customise' },
-    title: 'Easy to customise',
+    title: 'Stofe',
   },
   {
     key: '5',
     image: { src: img5, alt: 'unlimited-features' },
-    title: 'Unlimited Features',
+    title: 'Nassim',
   },
   {
     key: '6',
     image: { src: img6, alt: 'advanced-option' },
-    title: 'Advanced Options',
+    title: 'Taha',
   },
 ];
 
