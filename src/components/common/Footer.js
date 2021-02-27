@@ -1,12 +1,14 @@
 import React from 'react';
 import { BackTop } from 'antd';
+import Logo from '../../assets/images/the_bois_logo.png';
 
 function AppFooter() {
   return (
     <div className="container-fluid">
       <div className="footer">
         <div className="logo">
-          <i className="fas fa-bolt"></i>
+          <img src={Logo} alt="the_bois_logo" />
+
           <a href="#">The Bois</a>
         </div>
         <ul className="socials">
